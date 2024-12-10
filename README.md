@@ -71,4 +71,26 @@ ALIGN CONTENT: Alinha os elementos no eixo transversal, quanso eles estão empac
 
 - align-content: space-around (Divide o eixo transversal em dois, e centraliza os elementos nessas divisões)
 -------------------------------------/
-AULA 07: 
+AULA 07: Propriedades dos elementos
+
+ORDER:(default é 0)
+
+Basicamente o order serve para colocar um index nos elementos, e o CSS ordena esses elementos do menos para o maior.
+
+ALIGN-SELF: 
+
+- align-self: auto; (padrão vertical)
+
+- align-self: start; (Alinhamento cross start)
+
+- align-self: end (Alinhamento cross end);
+
+- align-self: center; (Calcula o centro entre o cross start e cross end)
+
+- align-self: stretch; (Estica, para preencher tudo)
+-------------------------------------/
+AULA 08: FLEX BASIS
+
+- flex-basis: auto; (A lagura do elemento é dada com base no tamanho do conteúdo)
+
+- flex-basis: 200px; (Pode ser qualquer valor. Será o valor inicial, porém se for necessário aumentar ou diminuir o elemento, ele fará)
