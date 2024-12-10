@@ -6,25 +6,32 @@ AULA 01 - INTRODUÇÃO
 
 - Flex container
 - Elementos filhos
+
 ----------------------------------/
+
 AULA 02 - Eixos: 
 
 - flex-direction: row;
 - flex-direction: column;
 - flex-direction: reverse-row;
 - flex-direction: reverse-column;
+
 ----------------------------------/
+
 AULA 03 - Wrap (enpacotamento):
 
 -flex-wrap: no-wrap; (Encolhe elementos)
 -flex-wrap: wrap; (Muda elemento baseado no sentindo do eixo)
 -flex-wrap: wrap-reverse; (Muda elemento baseado no sentindo do eixo)
+
 ----------------------------------/
+
 Extra: 
 - flex-flow: row nowrap; 
 - flex-flow: auto;
 (Junção de das duas declarações) 
 ----------------------------------/
+
 AULA 04 - Alinhamento dos elementos 
 
 JUSTIFY-CONTENT (Eixo main)
@@ -52,7 +59,9 @@ ALIGN-ITEMS (Eixo cross)
 - align-items: flex-end; (Items comam no final)
 
 - align-items: center; (Coloca no centro)
+
 ----------------------------------/
+
 AULA 5 e 6: Centralizar elementos
 
 ALIGN CONTENT: Alinha os elementos no eixo transversal, quanso eles estão empacotados.
@@ -70,7 +79,9 @@ ALIGN CONTENT: Alinha os elementos no eixo transversal, quanso eles estão empac
 - align-content: space-evenly (Espaços distribuidos)
 
 - align-content: space-around (Divide o eixo transversal em dois, e centraliza os elementos nessas divisões)
+
 -------------------------------------/
+
 AULA 07: Propriedades dos elementos
 
 ORDER:(default é 0)
@@ -88,7 +99,9 @@ ALIGN-SELF:
 - align-self: center; (Calcula o centro entre o cross start e cross end)
 
 - align-self: stretch; (Estica, para preencher tudo)
+
 -------------------------------------/
+
 AULA 08: FLEX BASIS
 
 - flex-basis: auto; (A lagura do elemento é dada com base no tamanho do conteúdo)
