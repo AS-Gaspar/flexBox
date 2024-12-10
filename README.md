@@ -53,6 +53,22 @@ ALIGN-ITEMS (Eixo cross)
 
 - align-items: center; (Coloca no centro)
 ----------------------------------/
-AULA 5: Centralizar elementos
+AULA 5 e 6: Centralizar elementos
 
-- 
+ALIGN CONTENT: Alinha os elementos no eixo transversal, quanso eles estão empacotados.
+
+- align-content: stretch; (Estica os elementos proporcionalmente em relação ao tamanho do container)
+
+- align-content: flex-start (Coloca todos agupados no inicio)
+
+- align-content: flex-end (Coloca todos agrupados no fim)
+
+- align-content: center (centraliza de forma agrupada)
+
+- align-content: space between (O espaço livre fica no meio do container, com od elementos no inicio e fim)
+
+- align-content: space-evenly (Espaços distribuidos)
+
+- align-content: space-around (Divide o eixo transversal em dois, e centraliza os elementos nessas divisões)
+-------------------------------------/
+AULA 07: 
