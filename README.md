@@ -30,6 +30,7 @@ Extra:
 - flex-flow: row nowrap;
 - flex-flow: auto;
 (Junção de das duas declarações) 
+
 ----------------------------------/
 
 AULA 04 - Alinhamento dos elementos 
@@ -102,3 +103,49 @@ AULA 08: FLEX BASIS
 - flex-basis: auto; (A lagura do elemento é dada com base no tamanho do conteúdo)
 
 - flex-basis: 200px; (Pode ser qualquer valor. Será o valor inicial, porém se for necessário aumentar ou diminuir o elemento, ele fará)
+
+-------------------------------------/
+
+AULA 09: Controle de tamanhos
+
+- flex-shrink: 1; ( 1 = pode encolher)
+- flex-grow: 0; ( 0 = não pode crescer)
+
+Sobre os valores:
+
+Zero: significa que o tamanho é fixo
+
+Um: Significa que o tamanho altera
+
+Maiores que 1: Será proporcional aos outros valores. Ex: 0 - 1 - 2
+ O elemento 2 crescerá o dobro do elemento 1, e o elemento 0 não altera.
+
+ ------------------------------------/
+
+ AULA 10: Propriedades Flex
+
+Simplicação de Basis, Shrink e Grow:
+
+ Ordem: Grow - Shrink - basis
+ 
+ /* flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1; */
+
+- flex: 1 1 150px;
+
+/*flex: 0 1 auto;*/
+
+- flex: initial;
+
+ /* flex: 0 0 auto; */
+    
+- flex: none;
+
+/* flex: 1 1 auto; */
+
+- flex: auto;
+
+*Colocar apenas um número, (Ex: 3), significa que grow será 3, shrink e basis serão default*
+
+
