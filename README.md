@@ -29,7 +29,7 @@ AULA 03 - Wrap (enpacotamento):
 Extra: 
 - flex-flow: row nowrap;
 - flex-flow: auto;
-(Junção de das duas declarações) 
+(Junção das duas declarações) 
 
 ----------------------------------/
 
@@ -37,7 +37,7 @@ AULA 04 - Alinhamento dos elementos
 
 JUSTIFY-CONTENT (Eixo main)
 
-- justify-content: flex-start; (itens alinhados, com o espaço em branco ficando ao final do "main start", que é a refeência utilizada nos eixos)
+- justify-content: flex-start; (itens alinhados, com o espaço em branco ficando ao final do "main start", que é a referência utilizada nos eixos)
 - justify-content: flex-end; (O inverso do acima)
 - justify-content: center; (centraliza os elementos)
 - justify-content: space-between; (Distribui os elementos por igual no conainer)
