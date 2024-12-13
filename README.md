@@ -52,7 +52,7 @@ ALIGN-ITEMS (Eixo cross)
 
 - align-items: flex-start (Items colam no inicio)
 
-- align-items: flex-end; (Items comam no final)
+- align-items: flex-end; (Items colam no final)
 
 - align-items: center; (Coloca no centro)
 
